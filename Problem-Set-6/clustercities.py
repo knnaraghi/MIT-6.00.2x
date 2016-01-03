@@ -250,7 +250,7 @@ def test():
     hCluster(points, Cluster.maxLinkageDist, 10, False)
     hCluster(points, Cluster.averageLinkageDist, 10, False)
     hCluster(points, Cluster.singleLinkageDist, 10, False)
-    #points = buildCityPoints('ityTemps.txt', False) #change to proper directory
+    #points = buildCityPoints('cityTemps.txt', False) #change to proper directory
     #hCluster(points, Cluster.maxLinkageDist, 10, False)
     #hCluster(points, Cluster.averageLinkageDist, 10, False)
     #hCluster(points, Cluster.singleLinkageDist, 10, False)
